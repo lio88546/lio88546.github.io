@@ -1,5 +1,12 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+body {
+  background-image: url("http://i.imgur.com/UxNfmUg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+}
+
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
@@ -51,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: .875rem;
+}
+
+.jumbotron {
+  background-color: rgba(44, 40, 40, 0.85);
 }
 
 .card-img-right {
@@ -105,20 +116,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .25rem;
   font-size: 2.5rem;
 }
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
-}
 
 /*
  * Footer
  */
 .blog-footer {
   padding: 2.5rem 0;
-  color: #999;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
+  background-color: #f9f9f900;
+  border-top: .05rem solid #e5e5e500;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
