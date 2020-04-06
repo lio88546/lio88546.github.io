@@ -1,9 +1,16 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+@font-face {
+  font-family: huninn;
+  src: url("open-huninn-font-master/font/jf-openhuninn-1.0.ttf");
+  font-weight: bold;
+}
+
 body {
-  background-image: url("");
-  background-color: gray;
+  background-color: black;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url("brushed_silver.jpg");
   background-repeat: no-repeat;
+  font-family: "huninn";
   color: rgb(255, 255, 255);
 }
 
@@ -13,16 +20,16 @@ body {
 }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-family: "huninn" ,"Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 2.25rem;
 }
 
 .blog-header-logo:hover {
-  text-decoration: none;
+  text-decoration: underline overline;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-family: "huninn" ,"Playfair Display", Georgia, "Times New Roman", serif;
 }
 
 .jumbotron {
