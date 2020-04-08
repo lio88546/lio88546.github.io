@@ -7,9 +7,10 @@
 }
 
 body {
-  background-color: black;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url("brushed_silver.jpg");
-  background-repeat: no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8)0%, rgba(255, 255, 255, 0.3)100%);
+  background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.8)0%, rgba(255, 255, 255, 0.3)100%);
+  background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.8)0%, rgba(255, 255, 255, 0.3)100%);
+  background: -o-linear-gradient(0deg, rgba(0, 0, 0, 0.8)0%, rgba(255, 255, 255, 0.3)100%);
   font-family: "huninn";
   color: rgb(255, 255, 255);
 }
